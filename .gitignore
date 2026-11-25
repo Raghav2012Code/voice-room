@@ -13,3 +13,5 @@ build/
 desktop/target/
 target/
 desktop/gen/
+website/.docusaurus/
+website/build/
