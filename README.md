@@ -27,7 +27,7 @@ Windows 10 and 11 (x64) native app. Browser UI on Windows, Linux and macOS. Pyth
 | **0 bytes** uploaded | **1 file** to add an engine | **Unlimited** text length | **MIT** license |
 | Text and audio stay on your PC | Drop an adapter into `server/engines/` | Sentence chunking, live playback, Stop | Source, config and docs in the repo |
 
-## Voice Room
+## The console
 
 ![Voice Room console](docs/screenshot.png)
 
