@@ -1,0 +1,14 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8766
+  },
+  "models_dir": "./models",
+  "engines": {
+    "example": { "enabled": true },
+    "phonon": { "enabled": false, "exe": "./models/phonon/ptts.exe", "model_dir": "./models/phonon", "voices_file": "./models/phonon-voices/voices.jsonl" },
+    "kokoro": { "enabled": false, "onnx": "./models/kokoro/kokoro-v1.0.onnx", "voices": "./models/kokoro/voices-v1.0.bin" },
+    "kitten": { "enabled": false, "model_dir": "./models/kitten-tts-2-mini" },
+    "chatterbox": { "enabled": false, "exe": "./chatterbox/chatterbox-server.exe", "api": "http://127.0.0.1:8087" }
+  }
+}

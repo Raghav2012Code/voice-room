@@ -1,0 +1,15 @@
+config.json
+models/
+*.wav
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+desktop/target/
+target/
+desktop/gen/

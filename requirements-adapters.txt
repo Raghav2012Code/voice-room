@@ -1,0 +1,5 @@
+# Optional, only needed for the matching adapters. The core server has no deps.
+soundfile
+numpy
+kokoro-onnx
+kittenml
