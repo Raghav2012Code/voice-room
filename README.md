@@ -10,7 +10,7 @@
 
 <p align="center">
   github.com/Raghav2012Code/voice-room: the source, docs and releases. Liked Voice Room?
-  <a href="https://github.com/Raghav2012Code/voice-room/stargazers">Star it there</a>, one to five clicks.
+  <a href="https://github.com/Raghav2012Code/voice-room/stargazers">Star it there</a>, one click is enough.
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 
 Windows 10 and 11 (x64) native app. Browser UI on Windows, Linux and macOS. Python 3.10 or newer. 87 languages is not a claim we make, but adding any local engine is. No ads, no trial, no sign-up.
 
-| <img src="desktop/icons/32x32.png" width="28" alt=""> | <img src="desktop/icons/32x32.png" width="28" alt=""> | <img src="desktop/icons/32x32.png" width="28" alt=""> | <img src="desktop/icons/32x32.png" width="28" alt=""> |
+| <img src="docs/card-icon.png" width="30" alt=""> | <img src="docs/card-icon.png" width="30" alt=""> | <img src="docs/card-icon.png" width="30" alt=""> | <img src="docs/card-icon.png" width="30" alt=""> |
 | :---: | :---: | :---: | :---: |
 | **Local only** | **Any engine** | **No length cap** | **Open** |
 | **0 bytes** uploaded | **1 file** to add an engine | **Unlimited** text length | **MIT** license |
