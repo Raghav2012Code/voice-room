@@ -95,7 +95,7 @@ Included adapters:
 
 ## Native Windows app
 
-The `desktop/` folder is a Tauri v2 shell. It starts the configured backend, waits for the port, opens a native window and stops the backend when you close the window.
+The `desktop/` folder is a Tauri v2 shell. It opens a native window on a bundled splash page, starts the configured backend, and navigates the window to the local UI once the port answers. The window sits in the system tray: closing it hides it, and Quit in the tray stops the backend. The tray also toggles Start with Windows, `--minimized` starts it hidden, only one copy runs, and window size and position persist.
 
 ```sh
 cd desktop
@@ -112,11 +112,12 @@ Put a `config.json` next to the built executable, or set `VOICE_ROOM_CONFIG`, wi
     "cwd": "C:/path/to/voice-room",
     "port": 8766,
     "log": "C:/path/to/voice-room/server.log"
-  }
+  },
+  "desktop": { "tray": true }
 }
 ```
 
-The window loads `http://127.0.0.1:<port>/`. Keep port 8766 unless you also change the window URL in `desktop/tauri.conf.json`.
+The window URL is built from `server.port` at runtime, so the port has one home. `desktop.tray` defaults to `true`; set it to `false` to close the app with the window and skip the tray icon.
 
 ## API
 

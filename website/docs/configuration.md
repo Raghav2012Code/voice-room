@@ -78,12 +78,17 @@ The Tauri shell uses a separate `config.json` next to its executable, or the fil
     "cwd": "C:/path/to/voice-room",
     "port": 8766,
     "log": "C:/path/to/voice-room/server.log"
+  },
+  "desktop": {
+    "tray": true
   }
 }
 ```
+
+The `desktop` block is optional. `desktop.tray` defaults to `true`, which adds the tray icon and hides the window on close instead of quitting. Set it to `false` to run without a tray icon, where closing the window quits the app and stops the backend child.
 
 See [Desktop app](/docs/desktop-app) for the build and launch steps.
 
 ## Changing the port
 
-The browser UI follows `server.port`. The bundled desktop window loads `http://127.0.0.1:8766/` by default, so if you change the port also change the window URL in `desktop/tauri.conf.json`, or keep 8766.
+The browser UI follows `server.port`. The desktop window builds its URL from the same key at runtime, so changing `server.port` in `config.json` is enough.
